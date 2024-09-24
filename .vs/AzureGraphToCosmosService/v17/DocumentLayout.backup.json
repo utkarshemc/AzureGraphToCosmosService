@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ubhardwaj\\source\\repos\\AzureGraphToCosmosService\\",
+  "WorkspaceRootPath": "C:\\Users\\ubhardwaj\\OneDrive - Microsoft\\Documents\\Hackathon\\AzureGraphToCosmosService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{504FFC07-C3FA-4DE9-9206-F46562E0FDD0}|AzureGraphToCosmosService\\AzureGraphToCosmosService.csproj|c:\\users\\ubhardwaj\\source\\repos\\azuregraphtocosmosservice\\azuregraphtocosmosservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{504FFC07-C3FA-4DE9-9206-F46562E0FDD0}|AzureGraphToCosmosService\\AzureGraphToCosmosService.csproj|solutionrelative:azuregraphtocosmosservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ubhardwaj\\OneDrive - Microsoft\\Documents\\Hackathon\\AzureGraphToCosmosService\\AzureGraphToCosmosService\\UsersAPItoCosmosDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AzureGraphToCosmosService\\UsersAPItoCosmosDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,12 +23,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ubhardwaj\\source\\repos\\AzureGraphToCosmosService\\AzureGraphToCosmosService\\Program.cs",
-              "RelativeDocumentMoniker": "AzureGraphToCosmosService\\Program.cs",
-              "ToolTip": "C:\\Users\\ubhardwaj\\source\\repos\\AzureGraphToCosmosService\\AzureGraphToCosmosService\\Program.cs",
-              "RelativeToolTip": "AzureGraphToCosmosService\\Program.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAfwE8AAABEAAAAAAAAAA==",
+              "Title": "UsersAPItoCosmosDB.cs",
+              "DocumentMoniker": "C:\\Users\\ubhardwaj\\OneDrive - Microsoft\\Documents\\Hackathon\\AzureGraphToCosmosService\\AzureGraphToCosmosService\\UsersAPItoCosmosDB.cs",
+              "RelativeDocumentMoniker": "AzureGraphToCosmosService\\UsersAPItoCosmosDB.cs",
+              "ToolTip": "C:\\Users\\ubhardwaj\\OneDrive - Microsoft\\Documents\\Hackathon\\AzureGraphToCosmosService\\AzureGraphToCosmosService\\UsersAPItoCosmosDB.cs",
+              "RelativeToolTip": "AzureGraphToCosmosService\\UsersAPItoCosmosDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T22:31:17.661Z",
               "EditorCaption": ""

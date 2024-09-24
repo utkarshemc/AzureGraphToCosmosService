@@ -7,13 +7,13 @@ namespace AzureAdGraphToCosmos
     class Program
     {
         // Azure AD Authentication and Graph API details
-        private static string tenantId = "7a880873-6b76-4a2c-99f7-9d76741cf744";     // Get from Azure AD App Registration
-        private static string clientId = "3eb397be-6c64-4f13-8ae7-541a603d6463";     // Get from Azure AD App Registration
-        private static string clientSecret = "aD68Q~UIxDh2dizplCVLIpDGeE4VyH_Go9eedaFD"; // Created in Azure AD
+        private static string tenantId = "";     // Get from Azure AD App Registration
+        private static string clientId = "";     // Get from Azure AD App Registration
+        private static string clientSecret = ""; // Created in Azure AD
 
         // Cosmos DB details
-        private static string cosmosEndpoint = "https://graphapiresponse.documents.azure.com:443/";
-        private static string cosmosPrimaryKey = "wrsCQPdr0uYONFFCGv1rb6z8BnwH9FoTfEInKMelOWx8kkmj4zCp0C7de81ir36xyjceoQI8BwzcACDbrgv9mw==";
+        private static string cosmosEndpoint = "";
+        private static string cosmosPrimaryKey = "";
         private static string databaseId = "UserDatabase";
         private static string containerId = "UserContainer";
 
@@ -61,7 +61,15 @@ namespace AzureAdGraphToCosmos
                     var currentUser = await graphClient.Users[user.Id]
                         .GetAsync((requestConfiguration) =>
                         {
-                            requestConfiguration.QueryParameters.Select = new[] { "displayName", "signInActivity", "accountEnabled", "employeeLeaveDateTime", "createdDateTime"};
+                            requestConfiguration.QueryParameters.Select = new[] { 
+                                "displayName",
+                                "signInActivity",
+                                "accountEnabled",
+                                "employeeLeaveDateTime",
+                                "createdDateTime",
+                                "onPremisesExtensionAttributes",
+                                "provisioningStatus",
+                                "userType" };
                         });
 
                     Console.WriteLine("User processed");
@@ -75,9 +83,11 @@ namespace AzureAdGraphToCosmos
                         accountEnabled = currentUser.AccountEnabled,
                         signInActivity = currentUser.SignInActivity,
                         employeeLeaveDateTime = currentUser.EmployeeLeaveDateTime,
-                        createdDateTime = currentUser.CreatedDateTime
+                        createdDateTime = currentUser.CreatedDateTime,
+                        userType = currentUser.UserType
                     };
                     userList.Add(userObj);
+                    break;
                 }
             }
             catch (ServiceException ex)

@@ -7083,11 +7083,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ubhardwaj\\source\\repos\\AzureGraphToCosmosService\\AzureGraphToCosmosService\\AzureGraphToCosmosService.csproj",
+      "projectUniqueName": "C:\\Users\\ubhardwaj\\OneDrive - Microsoft\\Documents\\Hackathon\\AzureGraphToCosmosService\\AzureGraphToCosmosService\\AzureGraphToCosmosService.csproj",
       "projectName": "AzureGraphToCosmosService",
-      "projectPath": "C:\\Users\\ubhardwaj\\source\\repos\\AzureGraphToCosmosService\\AzureGraphToCosmosService\\AzureGraphToCosmosService.csproj",
+      "projectPath": "C:\\Users\\ubhardwaj\\OneDrive - Microsoft\\Documents\\Hackathon\\AzureGraphToCosmosService\\AzureGraphToCosmosService\\AzureGraphToCosmosService.csproj",
       "packagesPath": "C:\\.tools\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ubhardwaj\\source\\repos\\AzureGraphToCosmosService\\AzureGraphToCosmosService\\obj\\",
+      "outputPath": "C:\\Users\\ubhardwaj\\OneDrive - Microsoft\\Documents\\Hackathon\\AzureGraphToCosmosService\\AzureGraphToCosmosService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

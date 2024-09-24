@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AzureGraphToCosmosService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb4984b733491d000117af033a75f717dfb31e21")]
 [assembly: System.Reflection.AssemblyProductAttribute("AzureGraphToCosmosService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AzureGraphToCosmosService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
